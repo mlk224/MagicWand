@@ -1,5 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap');
-/* CORE STYLES */
+@font-face {
+    font-family: 'castellarregular';
+    src: url('webfontkit-20221201-152337/castellar-webfont.woff2') format('woff2'),
+         url('webfontkit-20221201-152337/castellar-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}/* CORE STYLES */
 
 /* Hamburger Help: https://codepen.io/bradtraversy/pen/vMGBjQ */
 :root {
@@ -27,7 +33,11 @@
 
     --menu-speed: 0.75s;
 }
-
+*{
+    font-family: 'castellarregular';
+    font-weight:normal;
+    font-style:normal;
+}
 .container {
     max-width: 100vw;
     margin: auto;
