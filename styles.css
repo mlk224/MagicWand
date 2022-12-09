@@ -33,7 +33,6 @@
     font-family: 'castellarregular';
     font-weight:normal;
     font-style:normal;
-    background-color:rgb(247, 241, 224);
     color:rgb(52, 26, 1);
 }
 .container {
@@ -45,6 +44,7 @@
   display: grid;
   margin-left:60px;
   margin-right:60px;
+  height:200px;
   grid-template-columns: repeat(3, 1fr);    
   grid-template-rows: 1fr 1fr;
   grid-column-gap: 0px;
@@ -81,9 +81,10 @@
 .spells-container .image{
   right:0;
   width:400px;
-  height:450px;
+  height:425px;
 }
 .spells-container h3{
+  font-size:32px;
   text-align:center;
 }
 .text {
